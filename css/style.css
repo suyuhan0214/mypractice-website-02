@@ -98,4 +98,28 @@ header nav ul{
 }
 
 
-tasdfasfdsa
+/* Locations */
+.locations{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.locations-container{
+    display:flex;
+    justify-content: space-around;
+
+}
+.box{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    text-align: center;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px;
+}
